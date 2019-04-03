@@ -9,13 +9,13 @@ export default {
     },
         mounted() {
         var exampleCallback = function() {
-            console.log('Order complete!');
+
         };
 
         window.EBWidgets.createWidget({
             // Required
             widgetType: 'checkout',
-            eventId: '59763211374',
+            eventId: '59786230224',
             iframeContainerId: 'eventbrite',
             
             // Optional

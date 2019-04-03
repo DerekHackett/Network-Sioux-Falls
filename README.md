@@ -1,4 +1,4 @@
-# networksiouxfalls
+# Network Sioux Falls
 
 ## Project setup
 ```
