@@ -11,6 +11,9 @@ export default {
     name: 'home',
     components: {
         HomeNetworx
+    },
+    metaInfo:{
+        title: 'Home'
     }
 };
 </script>

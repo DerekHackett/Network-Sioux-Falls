@@ -4,7 +4,9 @@
         <v-layout align-start justify-end column fill-height class="info-container">
             <v-flex>
                 <div>
+                    <a href="https://www.unifyconsulting.com/about/" target="_blank">
                     <img class="unify-logo" src="@/assets/images/Unify_Logo.png" alt="">
+                    </a>
                 </div>
             </v-flex>
           <v-layout>
@@ -18,9 +20,8 @@
                 <div class="headline font-weight-bold grey--text text--lighten-1">5pm - Hors d'oeuvres & Cocktails</div>
                 <div class="headline font-weight-bold grey--text text--lighten-1">6:30 - Speakers</div>
                 <div class="mt-2">
-                    <router-link to="/rsvp">
-                            <a class="headline font-weight-bold blue--text text--lighten-1" >RSVP Here</a>
-                    </router-link>
+                <v-btn color="info" to="/rsvp">RSVP Here</v-btn>
+                <v-btn color="info" to="/speakers">Speakers</v-btn>
                 </div>
             </v-flex>
             </v-layout>

@@ -15,6 +15,14 @@ export default {
     name: 'App',
     components: {
         // AppNavigation
+    },
+        metaInfo: {
+            titleTemplate: '%s | Network Sioux Falls',
+                htmlAttrs: {
+                    lang: 'en',
+                    amp: undefined
+                },
+                
     }
 };
 </script>

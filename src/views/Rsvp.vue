@@ -5,6 +5,9 @@
 <script>
 export default {
     name: 'rsvp',
+        metaInfo:{
+        title: 'RSVP'
+    },
     components: {
     },
         mounted() {
